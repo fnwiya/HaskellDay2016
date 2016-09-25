@@ -3,4 +3,4 @@
 
 main = do
   putStr "Hello, "
-  putSrtLn "World."
+  putStrLn "World."
