@@ -2,5 +2,5 @@
 -- stack runghc
 
 main = do
-  putStr "Hello, "
-  putStrLn "Haskell World."
+  file <- readFile "hello.hs"
+  putStrLn file
